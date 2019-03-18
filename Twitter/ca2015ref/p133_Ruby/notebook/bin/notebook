@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+begin
+  require 'notebook'
+rescue LoadError
+  require 'rubygems'
+  require 'notebook'
+end 
+
+runner = Notebook::Runner.new(ARGV)
+runner.run

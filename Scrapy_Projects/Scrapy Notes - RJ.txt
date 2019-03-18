@@ -1,0 +1,35 @@
+scrapy startproject tutorial
+# This will create a "tutorial" directory with the following contents:
+-----------------------------------
+tutorial/
+     scrapy.cfg
+     tutorial/
+          __init__.py
+          items.py
+          pipelines.py
+          settings.py
+          spiders/
+               __init__.py
+               ...
+-----------------------------------
+scrapy genspider example example.com
+
+scrapy crawl myspider
+
+scrapy startproject myproject [project_dir]
+
+That will create a Scrapy project under the project_dir directory. If project_dir wasn’t specified, project_dir will be the same as myproject.
+
+Next, you go inside the new project directory:
+
+cd project_dir
+
+And you’re ready to use the scrapy command to manage and control your project from there.
+
+Controlling projects
+
+You use the scrapy tool from inside your projects to control and manage them.
+
+For example, to create a new spider:
+
+scrapy genspider mydomain mydomain.com

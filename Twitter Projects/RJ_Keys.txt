@@ -1,0 +1,6 @@
+#consumer key, consumer secret, access token, access secret.
+ckey="r2I3FdcFB3WRKpKoxhpb9pkra"
+csecret="Snt0LzxPyKIUQphTQmbsf0DKPALKPfCAy4Jjr3g9O3A93AGdHM"
+atoken="18894514-JsJsbjRkWF4jgA7nrMyNYfLR3RccNSUlTzrYO5shJ"
+asecret="BhFpvR3ZJe46wmA3sEUJ1eStz8y83WtgIlw91jJBU01z6"
+

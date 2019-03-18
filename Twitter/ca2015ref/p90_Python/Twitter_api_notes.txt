@@ -1,0 +1,4 @@
+
+
+python twitter_api.py --search=<search term>
+python twitter_api.py --search=money

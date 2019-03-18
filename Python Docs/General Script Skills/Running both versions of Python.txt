@@ -1,0 +1,5 @@
+Can I install python 3.x and 2.x on the same computer?
+
+Enter the following on top of the script:
+
+#!c:/Python/python3_0.exe -u

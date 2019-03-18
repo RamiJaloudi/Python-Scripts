@@ -1,0 +1,16 @@
+
+
+Scrapy fetch --nolog -headers http://www.example.com
+Scrapy fetch http://www.example.com
+Scrapy view http://www.example.com
+
+
+'''
+Run the following in cmd:
+-    cd C:\Users\Joh\Documents\Python Scripts\Scrapy_Projects\dirbot-master
+-    scrapy list
+-    scrapy crawl dmoz
+'''
+	
+
+

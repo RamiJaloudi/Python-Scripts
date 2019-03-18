@@ -1,0 +1,113 @@
+
+C:\Windows\system32>openssl
+'openssl' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>pip --version
+pip 1.5.6 from C:\Python27\lib\site-packages (python 2.7)
+
+C:\Windows\system32>pip install pyopenssl
+Downloading/unpacking pyopenssl
+  Running setup.py (path:c:\users\joh\appdata\local\temp\pip_build_Joh\pyopenssl
+\setup.py) egg_info for package pyopenssl
+
+    warning: no previously-included files matching '*.pyc' found anywhere in dis
+tribution
+    no previously-included directories found matching 'doc\_build'
+Downloading/unpacking cryptography>=0.2.1 (from pyopenssl)
+Downloading/unpacking six>=1.5.2 (from pyopenssl)
+  Downloading six-1.9.0-py2.py3-none-any.whl
+Downloading/unpacking pyasn1 (from cryptography>=0.2.1->pyopenssl)
+  Running setup.py (path:c:\users\joh\appdata\local\temp\pip_build_Joh\pyasn1\se
+tup.py) egg_info for package pyasn1
+
+Downloading/unpacking enum34 (from cryptography>=0.2.1->pyopenssl)
+  Downloading enum34-1.0.4.tar.gz
+  Running setup.py (path:c:\users\joh\appdata\local\temp\pip_build_Joh\enum34\se
+tup.py) egg_info for package enum34
+
+Downloading/unpacking cffi>=0.8 (from cryptography>=0.2.1->pyopenssl)
+Requirement already satisfied (use --upgrade to upgrade): setuptools in c:\pytho
+n27\lib\site-packages (from cryptography>=0.2.1->pyopenssl)
+Downloading/unpacking pycparser (from cffi>=0.8->cryptography>=0.2.1->pyopenssl)
+
+  Running setup.py (path:c:\users\joh\appdata\local\temp\pip_build_Joh\pycparser
+\setup.py) egg_info for package pycparser
+
+Installing collected packages: pyopenssl, cryptography, six, pyasn1, enum34, cff
+i, pycparser
+  Running setup.py install for pyopenssl
+
+    warning: no previously-included files matching '*.pyc' found anywhere in dis
+tribution
+    no previously-included directories found matching 'doc\_build'
+  Running setup.py install for pyasn1
+
+  Running setup.py install for enum34
+
+  Running setup.py install for pycparser
+
+Successfully installed pyopenssl cryptography six pyasn1 enum34 cffi pycparser
+Cleaning up...
+
+C:\Windows\system32>pip install Scrapy
+Downloading/unpacking Scrapy
+Requirement already satisfied (use --upgrade to upgrade): pyOpenSSL in c:\python
+27\lib\site-packages (from Scrapy)
+Requirement already satisfied (use --upgrade to upgrade): six>=1.5.2 in c:\pytho
+n27\lib\site-packages (from Scrapy)
+Downloading/unpacking queuelib (from Scrapy)
+  Downloading queuelib-1.2.2-py2.py3-none-any.whl
+Downloading/unpacking lxml (from Scrapy)
+Downloading/unpacking w3lib>=1.8.0 (from Scrapy)
+  Downloading w3lib-1.11.0-py2.py3-none-any.whl
+Downloading/unpacking cssselect>=0.9 (from Scrapy)
+  Downloading cssselect-0.9.1.tar.gz
+  Running setup.py (path:c:\users\joh\appdata\local\temp\pip_build_Joh\cssselect
+\setup.py) egg_info for package cssselect
+
+    no previously-included directories found matching 'docs\_build'
+Downloading/unpacking Twisted>=10.0.0 (from Scrapy)
+Requirement already satisfied (use --upgrade to upgrade): cryptography>=0.2.1 in
+ c:\python27\lib\site-packages (from pyOpenSSL->Scrapy)
+Downloading/unpacking zope.interface>=3.6.0 (from Twisted>=10.0.0->Scrapy)
+Cleaning up...
+Exception:
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\pip\basecommand.py", line 122, in main
+    status = self.run(options, args)
+  File "C:\Python27\lib\site-packages\pip\commands\install.py", line 278, in run
+
+    requirement_set.prepare_files(finder, force_root_egg_info=self.bundle, bundl
+e=self.bundle)
+  File "C:\Python27\lib\site-packages\pip\req.py", line 1197, in prepare_files
+    do_download,
+  File "C:\Python27\lib\site-packages\pip\req.py", line 1375, in unpack_url
+    self.session,
+  File "C:\Python27\lib\site-packages\pip\download.py", line 572, in unpack_http
+_url
+    download_hash = _download_url(resp, link, temp_location)
+  File "C:\Python27\lib\site-packages\pip\download.py", line 433, in _download_u
+rl
+    for chunk in resp_read(4096):
+  File "C:\Python27\lib\site-packages\pip\download.py", line 421, in resp_read
+    chunk_size, decode_content=False):
+  File "C:\Python27\lib\site-packages\pip\_vendor\requests\packages\urllib3\resp
+onse.py", line 240, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "C:\Python27\lib\site-packages\pip\_vendor\requests\packages\urllib3\resp
+onse.py", line 187, in read
+    data = self._fp.read(amt)
+  File "C:\Python27\lib\httplib.py", line 573, in read
+    s = self.fp.read(amt)
+  File "C:\Python27\lib\socket.py", line 380, in read
+    data = self._sock.recv(left)
+  File "C:\Python27\lib\ssl.py", line 714, in recv
+    return self.read(buflen)
+  File "C:\Python27\lib\ssl.py", line 608, in read
+    v = self._sslobj.read(len or 1024)
+SSLError: ('The read operation timed out',)
+
+Storing debug log for failure in C:\Users\Joh\pip\pip.log
+
+C:\Windows\system32>

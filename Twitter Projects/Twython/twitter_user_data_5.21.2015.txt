@@ -1,0 +1,5 @@
+id	screen_name	name	created_at	url	followers_count	friends_count	statuses_count	\	favorites_count	listed_count	\	contributors_enabled	description	protected	location	lang	expanded_url
+258402588	NJ_Laws	NJ Laws 	Sun Feb 27 17:03:25 +0000 2011	None	5829	1195	84			8		False	NJ Laws: Sharing news, trends and developments in New Jersey Law. By Rami Jaloudi. No Legal Advice. #njlaws	False	New Jersey	en	
+445986121	NY_Laws	New York Laws	Sun Dec 25 05:04:30 +0000 2011	None	5585	582	57			5		False	NY Laws: Sharing news and developments on New York Law. No legal advice. By Rami Jaloudi #nylaws	False	New York	en	
+1730810174	NYLaws	NY Laws	Thu Sep 05 04:34:17 +0000 2013	None	2059	113	6			0		False		False	New York, New York	en	
+302931392	NJ_Attorneys	New Jersey Laws	Sun May 22 00:57:59 +0000 2011	http://t.co/EWrIiueOcO	2040	68	1			0		False	Reserved and managed by Rami Jaloudi. No legal advice.	False	New Jersey	en	http://www.newjerseylaw.blogspot.com

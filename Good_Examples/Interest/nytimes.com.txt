@@ -1,0 +1,4 @@
+['http://www.nytimes.com']
+['The New York Times - Breaking News, World News & Multimedia']
+['http://www.nytimes.com']
+['The New York Times - Breaking News, World News & Multimedia']
